@@ -1,0 +1,164 @@
+/* start css reset */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+body {
+  min-height: 100vh;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+}
+a {
+  text-decoration: none;
+}
+ul, ol {
+  list-style-type: none;
+}
+/* end css reset */
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+  color: hsl(220, 10%, 12%);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: #F5F7FF;
+  display: grid;
+  grid-template-columns: 256px minmax(0, 1fr);
+  min-height: 100vh;
+}
+
+/* start sidebar */
+.sidebar {
+  background-color: white;
+  padding: 48px 30px;
+  margin-right: 10px;
+  border-radius: 8px;
+  height: auto;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 44px;
+}
+.logo-icon {
+  width: 40px;
+  height: 40px;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.menu-icon {
+  width: 20px;
+  height: 20px;
+}
+.menu-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: hsl(215, 19%, 59%);
+  font-size: 14px;
+  line-height: 143%;
+  font-weight: 500;
+  padding: 8px 30px 8px 20px;
+  border-radius: 12px;
+}
+.menu-link:hover {
+  background: linear-gradient(92.29deg, #415EF4 0.33%, #7141EF 28.14%);
+  color: white;
+}
+/* end css sidebar */
+/* start css topbar */
+.topbar {
+  padding: 24px 56px;
+  background-color: white;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 10px 10px 0;
+  border-radius: 8px;
+}
+.search {
+  padding: 12px 24px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background-color: hsl(217, 24%, 89%);
+  flex: 0 1 360px;
+}
+.search-icon {
+  width: 25px;
+  height: 25px;
+}
+.search-input {
+  background-color: transparent;
+  border: none;
+  font-weight: 500;
+  font-size: 15px;
+  color: hsl(248, 57%, 60%);
+  caret-color: hsl(248, 57%, 60%);
+  flex: 1;
+}
+.topbar-right {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex-shrink: 0;
+}
+.topbar-action{
+  flex-shrink: 0;
+}
+.profile {
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+}
+.profile img {
+  border-radius: 100rem;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+/* end css topbar */
+/* star css main-container */
+.main-container {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  margin-right: 10px;
+}
