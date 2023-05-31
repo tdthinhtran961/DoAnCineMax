@@ -1,0 +1,28 @@
+/* start banner */
+.swiper {
+  width: 100%;
+  height: %;
+  border-radius: 8px;
+  background-color: #fff;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swiper-slide img {
+  display: block;
+  width: 90%;
+  height: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  /* text-align: center; */
+  border-radius: 8px;
+  object-fit: cover;
+}
+/* .movie-layout h2 {
+
+} */

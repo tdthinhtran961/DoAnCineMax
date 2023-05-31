@@ -1,0 +1,97 @@
+/* start css movies */
+.movies-add {
+  background-color: white;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 0 10px 10px 0;
+}
+.form-movies-add {
+  display: grid;
+  display: none;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  gap: 25px 25px;
+  margin: 25px auto;
+}
+.form-movies-add label {
+  font-weight: 500;
+}
+.form-movies-add input {
+  width: 100%;
+  padding: 10px 15px;
+  border: 2px solid #eee;
+  border-radius: 8px;
+  background-color: hsl(220, 18%, 97%);
+}
+.form-movies-add button {
+  background-color: #6a5af9;
+  color: white;
+  border: 0;
+  outline: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.movies-show {
+  background-color: white;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 0 10px 10px 0;
+  display: flex;
+}
+.movies-show img {
+  width: 30%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.movies-info {
+  padding: 15px;
+  width: 70%;
+}
+.form-movies-info input {
+  padding: 5px 15px;
+  border: 2px solid #eee;
+  border-radius: 8px;
+  background-color: hsl(220, 18%, 97%);
+}
+.movies-title {
+  display: block;
+  padding: 0 0 10px 0;
+  font-size: 20px;
+  font-weight: 700;
+}
+.movies-content {
+  padding: 10px 0;
+  display: grid;
+  grid-template-columns: 20% 80%;
+  row-gap: 10px;
+  column-gap: px;
+}
+.movies-content span {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 8px 5px;
+}
+.movies-action {
+  display: flex;
+  gap: 50px;
+  /* align-items: center; */
+  justify-content: space-evenly;
+}
+.movies-action button {
+  background-color: #6a5af9;
+  color: white;
+  border: 0;
+  outline: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.movies-id{
+  /* display: none; */
+}

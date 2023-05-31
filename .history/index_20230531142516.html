@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./" />
+    <link rel="stylesheet" href="./movie.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="root">
+      <div class="content-wrapper">
+        <header>
+          <div class="logo">
+            <a href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="w-6 h-6 logo-img"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M1.5 6.375c0-1.036.84-1.875 1.875-1.875h17.25c1.035 0 1.875.84 1.875 1.875v3.026a.75.75 0 01-.375.65 2.249 2.249 0 000 3.898.75.75 0 01.375.65v3.026c0 1.035-.84 1.875-1.875 1.875H3.375A1.875 1.875 0 011.5 17.625v-3.026a.75.75 0 01.374-.65 2.249 2.249 0 000-3.898.75.75 0 01-.374-.65V6.375zm15-1.125a.75.75 0 01.75.75v.75a.75.75 0 01-1.5 0V6a.75.75 0 01.75-.75zm.75 4.5a.75.75 0 00-1.5 0v.75a.75.75 0 001.5 0v-.75zm-.75 3a.75.75 0 01.75.75v.75a.75.75 0 01-1.5 0v-.75a.75.75 0 01.75-.75zm.75 4.5a.75.75 0 00-1.5 0V18a.75.75 0 001.5 0v-.75zM6 12a.75.75 0 01.75-.75H12a.75.75 0 010 1.5H6.75A.75.75 0 016 12zm.75 2.25a.75.75 0 000 1.5h3a.75.75 0 000-1.5h-3z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <h1 style="color: white">CineMax</h1>
+            </a>
+          </div>
+          <div class="menu">
+            <div class="header-button">
+              <div class="search">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6 search-icon"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
+                  />
+                </svg>
+                <input
+                  type="text"
+                  class="search-input"
+                  placeholder="search all..."
+                />
+              </div>
+              <div>
+                <span>dang ky</span>
+                <span>dang nhap</span>
+              </div>
+            </div>
+            <nav>
+              <div class="nav-menu">
+                <a href="" class="nav-item nav-start">trang chủ</a>
+                <a href="" class="nav-item">phim</a>
+                <a href="" class="nav-item">đặt vé</a>
+                <a href="" class="nav-item">rạp và giá</a>
+                <a href="" class="nav-item">khuyến mãi</a>
+                <a href="" class="nav-item">hỏi và đáp</a>
+                <a href="" class="nav-item nav-end">giới thiệu</a>
+              </div>
+              <div class="nav-noti">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M14.857 17.082a23.848 23.848 0 005.454-1.31A8.967 8.967 0 0118 9.75v-.7V9A6 6 0 006 9v.75a8.967 8.967 0 01-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 01-5.714 0m5.714 0a3 3 0 11-5.714 0"
+                  />
+                </svg>
+              </div>
+            </nav>
+          </div>
+        </header>
+        <!-- End header -->
+        <main>
+          <div class="banner">
+            <!-- Swiper -->
+            <div class="swiper myBanner">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img
+                    src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Zmxvd2Vyc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60"
+                    alt=""
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="https://images.unsplash.com/photo-1591350832024-68c7491dd46e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGZsb3dlcnMlMjB3aWR0aHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60"
+                    alt=""
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="https://images.unsplash.com/photo-1516205651411-aef33a44f7c2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGZsb3dlcnMlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="swiper-button-next btn-swiper"></div>
+              <div class="swiper-button-prev btn-swiper"></div>
+              <div class="swiper-pagination btn-swiper"></div>
+            </div>
+          </div>
+          <!-- End baner -->
+          <h2 class="section-title">Phim đang chiếu</h2>
+          <section>
+            <div class="items">
+              <div class="swiper myItem">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="item">
+                      <img
+                        src="https://www.cgv.vn/media/catalog/product/cache/1/image/c5f0a1eff4c394a251036189ccddaacd/m/a/main_poster_-_dmmovie2023.jpg"
+                        alt=""
+                      />
+                      <div class="item-content">
+                        <div class="item-title">
+                          PHIM ĐIỆN ẢNH DORAEMON: NOBITA VÀ VÙNG ĐẤT LÝ TƯỞNG
+                          TRÊN BẦU TRỜI
+                        </div>
+                        <button class="item-button">Chi Tiết</button>
+                        <button class="item-button">đặt vé</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="item">
+                      <img
+                        src="https://www.cgv.vn/media/catalog/product/cache/1/image/c5f0a1eff4c394a251036189ccddaacd/m/a/main_poster_-_dmmovie2023.jpg"
+                        alt=""
+                      />
+                      <div class="item-content">
+                        <div class="item-title">
+                          PHIM ĐIỆN ẢNH DORAEMON: NOBITA VÀ VÙNG ĐẤT LÝ TƯỞNG
+                          TRÊN BẦU TRỜI
+                        </div>
+                        <button class="item-button">Chi Tiết</button>
+                        <button class="item-button">đặt vé</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="item">
+                      <img
+                        src="https://www.cgv.vn/media/catalog/product/cache/1/image/c5f0a1eff4c394a251036189ccddaacd/m/a/main_poster_-_dmmovie2023.jpg"
+                        alt=""
+                      />
+                      <div class="item-content">
+                        <div class="item-title">
+                          PHIM ĐIỆN ẢNH DORAEMON: NOBITA VÀ VÙNG ĐẤT LÝ TƯỞNG
+                          TRÊN BẦU TRỜI
+                        </div>
+                        <button class="item-button">Chi Tiết</button>
+                        <button class="item-button">đặt vé</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="item">
+                      <img
+                        src="https://www.cgv.vn/media/catalog/product/cache/1/image/c5f0a1eff4c394a251036189ccddaacd/m/a/main_poster_-_dmmovie2023.jpg"
+                        alt=""
+                      />
+                      <div class="item-content">
+                        <div class="item-title">
+                          PHIM ĐIỆN ẢNH DORAEMON: NOBITA VÀ VÙNG ĐẤT LÝ TƯỞNG
+                          TRÊN BẦU TRỜI
+                        </div>
+                        <button class="item-button">Chi Tiết</button>
+                        <button class="item-button">đặt vé</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="item">
+                      <img
+                        src="https://www.cgv.vn/media/catalog/product/cache/1/image/c5f0a1eff4c394a251036189ccddaacd/m/a/main_poster_-_dmmovie2023.jpg"
+                        alt=""
+                      />
+                      <div class="item-content">
+                        <div class="item-title">
+                          PHIM ĐIỆN ẢNH DORAEMON: NOBITA VÀ VÙNG ĐẤT LÝ TƯỞNG
+                          TRÊN BẦU TRỜI
+                        </div>
+                        <button class="item-button">Chi Tiết</button>
+                        <button class="item-button">đặt vé</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="item">
+                      <img
+                        src="https://www.cgv.vn/media/catalog/product/cache/1/image/c5f0a1eff4c394a251036189ccddaacd/m/a/main_poster_-_dmmovie2023.jpg"
+                        alt=""
+                      />
+                      <div class="item-content">
+                        <div class="item-title">
+                          PHIM ĐIỆN ẢNH DORAEMON: NOBITA VÀ VÙNG ĐẤT LÝ TƯỞNG
+                          TRÊN BẦU TRỜI
+                        </div>
+                        <button class="item-button">Chi Tiết</button>
+                        <button class="item-button">đặt vé</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-button-next btn-swiper"></div>
+                <div class="swiper-button-prev btn-swiper"></div>
+                <div class="swiper-pagination btn-swiper"></div>
+              </div>
+            </div>
+          </section>
+          <!-- End slider -->
+        </main>
+        <footer><h1>FOOOTER</h1></footer>
+      </div>
+    </div>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      let banner = new Swiper(".myBanner", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        // mousewheel: {
+        //   invert: true,
+        // },
+        autoplay: {
+          delay: 2000,
+          disableOnInteraction: true,
+          pauseOnMouseEnter: true,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+
+      // console.log(banner);
+    </script>
+    <script>
+      var item = new Swiper(".myItem", {
+        // mousewheel: {
+        //   invert: true,
+        // },
+        breakpoints: {
+          // when window width is >= 320px
+          320: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          // when window width is >= 480px
+          480: {
+            slidesPerView: 2,
+            spaceBetween: 25,
+          },
+          // when window width is >= 640px
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 25,
+          },
+          1280: {
+            slidesPerView: 3.5,
+            spaceBetween: 30,
+          },
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        slidesSizesGrid: 300,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+      // console.log(item);
+    </script>
+  </body>
+</html>
